@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>vsts-build-chainer</id>
+    <version>0.1</version>
+    <title>VSTS Build Chainer</title>
+    <authors> Alan McGovern</authors>
+    <owners>Alan McGovern</owners>
+    <projectUrl>https://github.com/alanmcgovern/vsts-build-chainer/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This allows you to make one VSTS build definiton invoke a second definition so that the same commit can be built on both Windows and Mac in a specific order.</description>
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+  <files>
+    <file src="vsts-build-chainer/bin/vsts-build-chainer.targets" target="build\vsts-build-chainer.targets" />
+    <file src="vsts-build-chainer/bin/Newtonsoft.Json.dll" target="build\Newtonsoft.Json.dll" />
+    <file src="vsts-build-chainer/bin/vsts-build-chainer.dll" target="build\vsts-build-chainer.dll" />
+  </files>
+</package>

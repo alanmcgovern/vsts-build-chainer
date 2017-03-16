@@ -1,0 +1,5 @@
+/packages/
+/vsts-build-chainer.userprefs
+/vsts-build-chainer/bin/
+/vsts-build-chainer/obj/
+/*.nupkg
